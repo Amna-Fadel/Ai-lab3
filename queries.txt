@@ -1,0 +1,33 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 10.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+31 ?- consult(['c:/Users/Amna fadel/Downloads/Family.pl']).
+true.
+
+32 ?- female(nora).
+true.
+
+33 ?- male(ali).
+true.
+
+34 ?- mother(sara, arwa).
+true.
+
+35 ?- father(ahmad, hassan).
+true.
+
+36 ?- sister(sara, mohammed).
+true .
+
+37 ?- brother(ali, hassan).
+true .
+
+38 ?- mother(nora, arwa).
+false.
+
+39 ?- sister(ali, mohammed).
+false.
